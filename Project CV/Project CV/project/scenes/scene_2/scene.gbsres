@@ -1,0 +1,57 @@
+{
+  "_resourceType": "scene",
+  "id": "bb7eefca-40a6-4ca2-9b5b-359bba7d2091",
+  "_index": 1,
+  "name": "Scene 2",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 296,
+  "y": 280,
+  "script": [
+    {
+      "command": "EVENT_SET_FLAGS",
+      "args": {
+        "variable": "L0",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__comment": true
+      },
+      "id": "47255e92-2164-454f-9467-7ee63a593ead"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "d1cfb5cb-f5fe-4ebd-9496-ecda2bbfc729"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
