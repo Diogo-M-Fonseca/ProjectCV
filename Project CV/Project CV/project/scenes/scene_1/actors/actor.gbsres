@@ -7,7 +7,7 @@
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
+  "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -24,7 +24,7 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 7
+          "value": 3
         },
         "y": {
           "type": "number",
@@ -33,66 +33,114 @@
         "moveType": "horizontal",
         "useCollisions": false
       },
-      "id": "bf06be31-9400-486e-b35b-38ddeff642ab"
+      "id": "c76e658b-eda2-431d-8769-e8ea69eb874a"
     },
     {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
       "args": {
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": -7
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 11
         },
-        "moveType": "horizontal",
-        "useCollisions": false
-      },
-      "id": "dc013c17-64c8-4e0d-89e3-6830fcfe854c"
-    },
-    {
-      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
-      "args": {
-        "actorId": "player",
-        "operator": "<=",
-        "distance": {
-          "type": "number",
-          "value": 4
-        },
-        "otherActorId": "$self$",
         "__collapseElse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
             "args": {
-              "sceneId": "e6d65526-ce69-47c6-9557-0629823f41de",
+              "actorId": "player",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "you been seen! "
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "40e4931b-6d63-4eef-b19d-3b794c8db57b"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "e6d65526-ce69-47c6-9557-0629823f41de",
+                    "x": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "9fdfb24f-b296-455e-8c85-3bfd460019d3"
+                }
+              ],
+              "false": []
+            },
+            "id": "d621a38e-78e3-4bbf-9d24-0b5c6bddd225"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -3
               },
               "y": {
                 "type": "number",
                 "value": 0
               },
-              "direction": "",
-              "fadeSpeed": "2"
+              "moveType": "horizontal",
+              "useCollisions": false
             },
-            "id": "a820f376-b91f-46a4-933e-d9991e24fe43"
+            "id": "17c05a61-93a7-46ac-97e2-ba27452eb68b"
           }
         ],
         "false": []
       },
-      "id": "6553a456-46a3-4345-89a3-55e130b8746d"
+      "id": "c9f0bfe9-58e1-49ae-85a2-b8a94148e6bf"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 10,
+  "x": 6,
+  "y": 11,
   "_index": 0
 }
