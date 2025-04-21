@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8e28506b-e272-467f-a273-1f999531a3ff",
+  "name": "Level2_RegistryRoom_template",
+  "symbol": "bg_level2_registryroom_temp",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Level2_RegistryRoom_template.png",
+  "tileColors": ""
+}

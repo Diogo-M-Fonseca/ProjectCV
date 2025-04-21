@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fea9ca85-fd2f-442a-b9e0-ecc86b92133c",
+  "_index": 8,
+  "name": "Level2_Scene2_RegistryRoom_cutscene",
+  "backgroundId": "8e28506b-e272-467f-a273-1f999531a3ff",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f4b+002+0f5+002+0fb+003+0f4+0010+0f4+0010+0f4+0010+0f4+002+0fb+003+0f4+002+0fb+003+0f4+0010+0f4+0010+0f4+0011+0f3+002+0fb+004+0f51+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 240,
+  "y": 704,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

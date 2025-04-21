@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "f756ae8d-88a3-49ee-abe4-74d29ab83922",
+  "_index": 6,
+  "name": "Level1_Scene5",
+  "backgroundId": "92dddbb4-4f74-4f7d-9d01-ee3562d56c23",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f!002+0f12+003+0f!00e+0f2+003+0f!00e+0f2+003+0f!00e+0f2+003+0f!003+0f8+003+0f2+003+0f!003+0f!00a+0f2+003+0f!003+0f!00a+0f2+003+0f!003+0f!00a+0f2+003+0f!003+0f!003+0f9+003+0f!003+0f!003+0f!006+0f2+003+0f!003+0f!003+0f!006+0f2+003+0f!003+0f!003+0f!003+0f!002+0f2+003+0f!003+0f!003+0f!003+0f!002+0f2+003+0f!003+0f!007+0f!002+0f2+003+0f!003+0f!007+0f!002+0f2+003+0f!003+0f!007+0f!002+0f2+007+0f9+002+0f2+007+0f!00a+0f2+007+0f!00a+0fa+002+0f9+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 60,
+  "y": 512,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
