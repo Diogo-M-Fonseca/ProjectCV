@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 160,
   "filename": "Level_1_background_template.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "89dde1f3-d08e-4162-91da-07cdb12d68ab",
+  "_index": 10,
+  "name": "Level3_Scene3",
+  "backgroundId": "f551b60d-cf87-40ab-b1a1-bea0fa78284e",
+  "tilesetId": "",
+  "width": 35,
+  "height": 30,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00f+0f5+00a+0f5+00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f11+003+0fc+003+0f2+0021+0f!0022+0f!0022+0f11+003+0fc+003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f!00f+0f!003+0f!00a+0f!003+0f11+003+0fc+003+0f2+0021+0f2+0021+0f2+0021+0f2+003+0fc+003+0fc+003+0f2+003+0f!00a+0f!003+0f!00a+0f!003+0f2+003+0f!00a+0f!003+0f!00a+0f!003+0f2+003+0f!00a+0f!003+0f!00a+0f!003+0f6+00a+0f5+00a+0f5+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 448,
+  "y": 944,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

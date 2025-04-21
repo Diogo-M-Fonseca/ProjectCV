@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "066954d0-569f-4911-9ed1-65b929d98da5",
+  "_index": 13,
+  "name": "Level3_Scene2",
+  "backgroundId": "92dddbb4-4f74-4f7d-9d01-ee3562d56c23",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f15+00e+0f!003+0f2+00e+0f!003+0f2+00e+0f!003+0f3+003+0f7+003+0f!003+0f3+003+0f7+003+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f2+008+0f!003+0f2+005+0fa+003+0f2+0012+0f2+0012+0f2+0012+0f2+005+0fa+003+0f3+003+0fb+003+0f3+003+0f7+003+0f!003+0f2+00e+0f!003+0f2+00e+0f!003+0f2+00e+0f!003+0f12+002+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 240,
+  "y": 992,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

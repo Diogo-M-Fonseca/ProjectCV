@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "4c95a992-7e19-4a26-8a1d-36ae0f377c23",
+  "_index": 14,
+  "name": "Level3_Scene5_Cutscene",
+  "backgroundId": "b21065cb-91e2-4602-8dd0-2b6273476b41",
+  "tilesetId": "",
+  "width": 30,
+  "height": 30,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1e+00ff+0f!001c+0f!00!0f!001a+0f!003+0f!0018+0f!005+0f!0016+0f!007+0f!0016+0f!005+0f!0018+0f!003+0f!001a+0f!00!0f!001c+0f!00ae+0fb+0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!009+0f1e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 1056,
+  "y": 944,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
