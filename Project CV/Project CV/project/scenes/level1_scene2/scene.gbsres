@@ -26,6 +26,23 @@
         }
       },
       "id": "e88b6a48-b5be-4728-a129-156a76378f2a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "81a0b8a0-2d77-4d46-95ed-5221f178a88c",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "129b08af-c1a9-495a-a247-2d954e67217a"
     }
   ],
   "playerHit1Script": [],

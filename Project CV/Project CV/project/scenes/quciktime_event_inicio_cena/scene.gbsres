@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "81a0b8a0-2d77-4d46-95ed-5221f178a88c",
+  "_index": 16,
+  "name": "QucikTime_Event_Inicio_Cena",
+  "backgroundId": "b2e8a0dc-580d-41e8-9e7c-93fbc9e249a1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 272,
+  "y": 1264,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

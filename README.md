@@ -1,6 +1,12 @@
 # Referência sobre os tiles sonoros
 
 ## level 1 scene 3
+![level 1 scene 1](tiles_referencias/1-1tileSonoro.png)
+
+## level 1 scene 4
+![level 1 scene 2](tiles_referencias/1-2tileSonoro.png)
+
+## level 1 scene 3
 ![level 1 scene 3](tiles_referencias/1-3tileSonoro.png)
 
 ## level 1 scene 4
