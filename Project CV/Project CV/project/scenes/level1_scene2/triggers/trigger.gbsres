@@ -13,7 +13,8 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "Definir tileSono e seguir para quicktime event"
+        "__label": "Definir tileSono e seguir para quicktime event",
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -24,7 +25,8 @@
               "value": {
                 "type": "number",
                 "value": 121
-              }
+              },
+              "__collapse": false
             },
             "id": "eb59b84e-dfa6-4e11-b64d-20f27c9f3c91"
           },
@@ -44,6 +46,19 @@
               "fadeSpeed": "2"
             },
             "id": "d2df77d1-57ee-463a-9330-b3625dc3bdac"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "09f6450f-90ee-45c4-b8e4-1efdbc972093"
           }
         ]
       },

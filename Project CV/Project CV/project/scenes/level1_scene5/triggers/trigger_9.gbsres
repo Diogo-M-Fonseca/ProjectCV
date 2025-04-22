@@ -44,6 +44,19 @@
               "fadeSpeed": "2"
             },
             "id": "78b194fd-3e25-4535-8b44-32a23cb6a2b5"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "04ba1594-ff14-43c3-9b1a-e28cc86a22d7"
           }
         ]
       },
