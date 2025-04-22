@@ -18,8 +18,23 @@
     },
     {
       "id": "3",
-      "name": "Variable 3",
-      "symbol": "var_variable_3"
+      "name": "quickTimeEvent_Start12",
+      "symbol": "var_quicktimeevent_start12"
+    },
+    {
+      "id": "4",
+      "name": "quickTimeEvent_Start13",
+      "symbol": "var_quicktimeevent_start13"
+    },
+    {
+      "id": "5",
+      "name": "quickTimeEvent_Start14",
+      "symbol": "var_quicktimeevent_start14"
+    },
+    {
+      "id": "6",
+      "name": "quickTimeEvent_Start15",
+      "symbol": "var_quicktimeevent_start15"
     }
   ]
 }
