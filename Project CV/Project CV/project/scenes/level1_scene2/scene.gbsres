@@ -15,7 +15,19 @@
   "symbol": "scene_4",
   "x": 232,
   "y": 344,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 12
+        }
+      },
+      "id": "e88b6a48-b5be-4728-a129-156a76378f2a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

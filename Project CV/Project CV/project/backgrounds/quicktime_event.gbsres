@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b2e8a0dc-580d-41e8-9e7c-93fbc9e249a1",
+  "name": "quicktime_event",
+  "symbol": "bg_quicktime_event",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "quicktime_event.png",
+  "tileColors": ""
+}

@@ -9,7 +9,47 @@
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 5,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Definir tileSono e seguir para quicktime event"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1311
+              }
+            },
+            "id": "9868cf06-98f9-4be4-bbdf-7a41967587a3"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "dbc9493b-1c3f-4000-8e77-e1e20aeede13",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "984b0dee-f557-4481-a0bf-1bbf1179dedc"
+          }
+        ]
+      },
+      "id": "95cd997c-5faf-40ad-aa3f-3ba3d6ec2376"
+    }
+  ],
   "leaveScript": [],
   "_index": 1
 }

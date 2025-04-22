@@ -8,5 +8,6 @@
   "imageWidth": 240,
   "imageHeight": 240,
   "filename": "Level3_Scene5_template.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

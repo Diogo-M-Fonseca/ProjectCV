@@ -5,6 +5,21 @@
       "id": "0",
       "name": "ChaveUm",
       "symbol": "var_chaveum"
+    },
+    {
+      "id": "1",
+      "name": "level",
+      "symbol": "var_level_0"
+    },
+    {
+      "id": "2",
+      "name": "tileSono",
+      "symbol": "var_tilesono"
+    },
+    {
+      "id": "3",
+      "name": "Variable 3",
+      "symbol": "var_variable_3"
     }
   ]
 }
