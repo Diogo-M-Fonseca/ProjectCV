@@ -13,7 +13,8 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "Definir tileSono e seguir para quicktime event"
+        "__label": "Definir tileSono e seguir para quicktime event",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -61,6 +62,47 @@
         ]
       },
       "id": "f84a800f-f8e8-41b9-bc0e-8da12b82a13e"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "2e95f13c-379d-45d5-bbbd-283d5e7bc2b6"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "995d19d0-075f-4a67-8fb9-53611bebc7e4",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "e37f018b-6295-44b8-9932-7c82ab8e147a"
+          }
+        ]
+      },
+      "id": "8d7a2793-50a3-4f27-9c18-d966193bc90b"
     }
   ],
   "leaveScript": [],

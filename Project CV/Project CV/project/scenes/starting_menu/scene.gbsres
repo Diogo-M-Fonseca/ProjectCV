@@ -1,0 +1,64 @@
+{
+  "_resourceType": "scene",
+  "id": "01962c9c-1f6f-487e-a3fc-3e1afcc584f4",
+  "_index": 17,
+  "name": "Starting Menu",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 672,
+  "y": 72,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "select",
+          "a",
+          "b",
+          "right",
+          "up",
+          "down",
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f01683bd-96a8-4a83-ac1a-ac6775f7c014",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "ab7463cb-eb52-4c7e-af9f-91e8d7a128a4"
+          }
+        ]
+      },
+      "id": "5c3a054b-f4c2-4f57-9dd9-16aaa8725eaa"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
