@@ -35,6 +35,21 @@
       "id": "6",
       "name": "quickTimeEvent_Start15",
       "symbol": "var_quicktimeevent_start15"
+    },
+    {
+      "id": "7",
+      "name": "Nota1",
+      "symbol": "var_nota1"
+    },
+    {
+      "id": "8",
+      "name": "Nota2",
+      "symbol": "var_nota2"
+    },
+    {
+      "id": "9",
+      "name": "Nota3",
+      "symbol": "var_nota3"
     }
   ]
 }

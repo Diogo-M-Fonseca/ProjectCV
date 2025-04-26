@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 160,
-  "y": 184,
+  "y": 144,
   "script": [
     {
       "command": "EVENT_SET_FLAGS",
@@ -36,7 +36,8 @@
         "flag14": false,
         "flag15": false,
         "flag16": false,
-        "__comment": true
+        "__comment": true,
+        "__collapse": false
       },
       "id": "47255e92-2164-454f-9467-7ee63a593ead"
     },
@@ -49,6 +50,36 @@
         }
       },
       "id": "d1cfb5cb-f5fe-4ebd-9496-ecda2bbfc729"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "3c9905da-ac79-4de2-af00-02f0dd4fbd4f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "57faa0e8-20b3-41a9-b44f-3746c11e296e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "5d038067-e1bf-4b18-bd54-06b7c8b9868a"
     }
   ],
   "playerHit1Script": [],

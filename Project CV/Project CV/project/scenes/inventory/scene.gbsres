@@ -3,11 +3,11 @@
   "id": "f855f009-2c34-42cc-98e5-3db98021448d",
   "_index": 19,
   "name": "Inventory",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "b2e8a0dc-580d-41e8-9e7c-93fbc9e249a1",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "POINTNCLICK",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -20,11 +20,11 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "down"
+          "start"
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
