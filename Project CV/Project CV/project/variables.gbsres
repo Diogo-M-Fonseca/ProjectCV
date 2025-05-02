@@ -50,6 +50,11 @@
       "id": "9",
       "name": "Nota3",
       "symbol": "var_nota3"
+    },
+    {
+      "id": "10",
+      "name": "Dinamite",
+      "symbol": "var_dinamite"
     }
   ]
 }

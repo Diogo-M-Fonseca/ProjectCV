@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c671a56c-1b6e-4a60-bf13-b51368a691e0",
+  "name": "LogoInPixel",
+  "symbol": "bg_logoinpixel",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "LogoInPixel.png",
+  "tileColors": ""
+}
