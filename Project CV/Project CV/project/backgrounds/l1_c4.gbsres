@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 320,
   "filename": "L1_C4.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

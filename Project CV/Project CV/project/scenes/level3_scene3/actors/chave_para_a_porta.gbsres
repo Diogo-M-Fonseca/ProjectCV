@@ -1,0 +1,73 @@
+{
+  "_resourceType": "actor",
+  "id": "33c5e9ee-1b97-4f65-8cd8-dee1715a7b0f",
+  "name": "Chave para a porta",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_22",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "9e52a0a2-82bb-4ef6-8c61-440c2f4e2d81"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A key!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "58f9aa94-343f-4347-9924-6ec117d773ed"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c556547f-4413-49db-9795-8a64e99d82b0"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 27,
+  "_index": 0
+}

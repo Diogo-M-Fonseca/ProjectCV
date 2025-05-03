@@ -1,0 +1,63 @@
+{
+  "_resourceType": "actor",
+  "id": "2737c31a-1504-4e93-81bf-516687da286d",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f892a12f-01a1-4c3c-b1ee-05467053d164",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_18",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "83312a5b-ef69-4310-a246-e79d4c732d48"
+    },
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "10",
+        "__collapse": true
+      },
+      "id": "c50ab237-aa71-4a79-9550-9f5f26de9693"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Dinamite",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "bb9953be-9253-46c1-8030-6b15370d02dc"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c400d7cd-4855-48a4-9a99-71bff34fbc1a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 1,
+  "_index": 0
+}

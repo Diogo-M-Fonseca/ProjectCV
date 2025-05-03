@@ -67,6 +67,17 @@
         ]
       },
       "id": "18f62bfb-3198-47ee-83ca-92785ab5afa8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "11f4efae-8417-48ff-8fd4-f91a4dc33145"
     }
   ],
   "playerHit1Script": [],

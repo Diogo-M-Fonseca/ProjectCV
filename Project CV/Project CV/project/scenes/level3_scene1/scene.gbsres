@@ -23,7 +23,8 @@
         "value": {
           "type": "number",
           "value": 31
-        }
+        },
+        "__collapse": true
       },
       "id": "13559a3e-9b82-4433-bed2-4b1eae2a9716"
     },
@@ -67,6 +68,17 @@
         ]
       },
       "id": "702db471-5452-4998-a473-f9d39a83f191"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "96853eaf-4dd5-4d02-969e-50eab5549cd2"
     }
   ],
   "playerHit1Script": [],

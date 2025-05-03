@@ -1,36 +1,57 @@
 {
   "_resourceType": "trigger",
-  "id": "35e0747a-6899-4b46-b8a3-722e2704f42a",
+  "id": "f132dd3b-21e2-438e-97d5-251d63ca3cae",
   "name": "",
   "prefabId": "",
-  "x": 16,
-  "y": 29,
-  "symbol": "trigger_73",
+  "x": 18,
+  "y": 0,
+  "symbol": "trigger_101",
   "prefabScriptOverrides": {},
-  "width": 5,
+  "width": 1,
   "height": 1,
   "script": [
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "not",
-          "value": {
+          "type": "lte",
+          "valueA": {
             "type": "variable",
-            "value": "0"
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
           }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "066954d0-569f-4911-9ed1-65b929d98da5",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8068b205-662f-4543-9d04-ca05084c78ee"
+          }
+        ],
+        "false": [
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The door is\nclosed",
-                "Find the Key"
+                "I need to set\nall the dynamite"
               ],
               "__section": "text",
               "avatarId": "",
@@ -49,32 +70,13 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "6598884b-bac7-4b13-81fe-2be6166a9f16"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "4c95a992-7e19-4a26-8a1d-36ae0f377c23",
-              "x": {
-                "type": "number",
-                "value": 14
-              },
-              "y": {
-                "type": "number",
-                "value": 1
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "0a91b5bc-8d10-4dd3-bff0-f50995d2429d"
+            "id": "9e3f626f-3f97-4930-abd7-9be6fc43f953"
           }
         ]
       },
-      "id": "d2da3d16-ba72-4b84-b072-2aa79cc9c881"
+      "id": "fa33d42d-7186-4cad-a804-925f910f5df0"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 10
 }

@@ -2841,11 +2841,11 @@
                           "sceneId": "ef690903-2465-495c-bdd7-6747706d9791",
                           "x": {
                             "type": "number",
-                            "value": 7
+                            "value": 12
                           },
                           "y": {
                             "type": "number",
-                            "value": 9
+                            "value": 5
                           },
                           "direction": "",
                           "fadeSpeed": "2"

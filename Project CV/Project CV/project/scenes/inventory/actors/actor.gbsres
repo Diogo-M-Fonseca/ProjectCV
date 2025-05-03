@@ -16,7 +16,19 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_10",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "77528a58-eca0-49e0-8c40-f8826837fb36"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_IF",

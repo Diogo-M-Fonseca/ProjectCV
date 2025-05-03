@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "273674c8-15db-42f3-8b45-380237e1492e",
-  "name": "",
+  "id": "76a5c906-4084-4b41-a580-d19d3b9895ef",
+  "name": "Chave para a porta",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_23",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -23,15 +23,15 @@
         "value": {
           "type": "true"
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "72a681f7-b7de-432c-9e30-ef9593663a94"
+      "id": "d2ecf6f5-f354-422c-a58e-ee7f60a0d6a5"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "What a shiny key!!"
+          "A key!!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -49,9 +49,9 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "d2d153e2-5c52-4b2e-a6ae-62822cda81b8"
+      "id": "0bf5cd1b-0ca7-409b-9246-f71515e92e45"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -59,7 +59,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "b3a68cb9-7827-40aa-9a01-526738035200"
+      "id": "efdaa503-cc49-46f1-830b-09ed929d4a1a"
     }
   ],
   "startScript": [],
@@ -68,6 +68,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 2,
-  "y": 5,
-  "_index": 5
+  "y": 27,
+  "_index": 0
 }

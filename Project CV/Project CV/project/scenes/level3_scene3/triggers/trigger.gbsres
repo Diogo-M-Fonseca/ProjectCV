@@ -9,7 +9,72 @@
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 2,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "0"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The door is\nclosed",
+                "Find the Key"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a55f80c5-c106-418b-b67a-7c678c6a7a52"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2769a83d-5ee4-408b-beec-948fa80db697",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "69280071-6aad-4a83-9876-e1dbfd3d020c"
+          }
+        ]
+      },
+      "id": "a7a13954-ad02-42a1-8f5b-f7e8c2ac8cd6"
+    }
+  ],
   "leaveScript": [],
   "_index": 0
 }

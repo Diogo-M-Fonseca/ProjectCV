@@ -23,7 +23,8 @@
         "value": {
           "type": "number",
           "value": 11
-        }
+        },
+        "__collapse": true
       },
       "id": "1d86b8b5-3a47-489d-85d7-3d5edea011e8"
     },
@@ -35,7 +36,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -67,9 +68,34 @@
         ]
       },
       "id": "52ce5946-8063-4429-ac07-487f9ed8ffaa"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Items iniciais"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": true
+            },
+            "id": "10584574-85cf-47a2-b3ee-e7c4818a070e"
+          }
+        ]
+      },
+      "id": "753f5c16-f7d8-4bc3-8881-935a566d5034"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }
