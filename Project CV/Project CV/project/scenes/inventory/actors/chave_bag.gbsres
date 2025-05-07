@@ -4,7 +4,7 @@
   "name": "Chave Bag",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "spriteSheetId": "63ffe121-1162-4af6-8895-4cd173eb53bf",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -108,7 +108,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
+  "x": 12,
   "y": 4,
   "_index": 0
 }

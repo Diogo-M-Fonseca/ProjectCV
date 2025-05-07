@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "c2ded432-c340-4235-b7d1-714313272fc3",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -12,11 +12,38 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "symbol": "actor_29",
-  "script": [],
-  "startScript": [],
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "2769a83d-5ee4-408b-beec-948fa80db697",
+        "x": {
+          "type": "number",
+          "value": 32
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "left",
+        "fadeSpeed": "2"
+      },
+      "id": "0fdff89d-bc86-4c64-97d7-03defb323d3b"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "c30831a1-e03c-46ef-8dcf-8344c39de4b9"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_LOOP",
@@ -58,6 +85,40 @@
               "__collapse": false
             },
             "id": "9d76d7de-e9f3-4031-a60b-c4a5076567f4"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "5f2ddc78-88f3-43ce-a996-8068612c0c52"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "9308e846-ba56-4dd4-bf02-6b51075c58b1"
           }
         ]
       },

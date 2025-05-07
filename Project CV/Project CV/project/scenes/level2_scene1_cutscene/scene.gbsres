@@ -3,7 +3,7 @@
   "id": "52e6f2ed-7423-4d55-8076-9fd685d25bae",
   "_index": 7,
   "name": "Level2_Scene1_cutscene",
-  "backgroundId": "92dddbb4-4f74-4f7d-9d01-ee3562d56c23",
+  "backgroundId": "c7852e24-128a-413b-b0d8-a9cccd57f87d",
   "tilesetId": "",
   "width": 20,
   "height": 20,
@@ -18,5 +18,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "66ff5250-77a2-494c-ac2e-e5567eb409ca"
 }

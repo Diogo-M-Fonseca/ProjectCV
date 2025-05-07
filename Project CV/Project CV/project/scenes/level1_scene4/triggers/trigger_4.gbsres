@@ -3,18 +3,18 @@
   "id": "6f0ce9cb-d723-4b96-b595-8c6a2a981fe4",
   "name": "",
   "prefabId": "",
-  "x": 3,
-  "y": 9,
+  "x": 6,
+  "y": 16,
   "symbol": "trigger_38",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 3,
+  "width": 4,
+  "height": 6,
   "script": [
     {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Definir tileSono e seguir para quicktime event",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -88,11 +88,11 @@
               "sceneId": "995d19d0-075f-4a67-8fb9-53611bebc7e4",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 15
               },
               "direction": "",
               "fadeSpeed": "2",

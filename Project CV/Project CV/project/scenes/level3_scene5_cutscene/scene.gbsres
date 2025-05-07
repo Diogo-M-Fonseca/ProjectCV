@@ -3,20 +3,31 @@
   "id": "4c95a992-7e19-4a26-8a1d-36ae0f377c23",
   "_index": 14,
   "name": "Level3_Scene5_Cutscene",
-  "backgroundId": "b21065cb-91e2-4602-8dd0-2b6273476b41",
+  "backgroundId": "894b91d4-5dd6-445d-a6f1-7d105625f8bb",
   "tilesetId": "",
   "width": 30,
   "height": 30,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f1e+00ff+0f!001c+0f!00!0f!001a+0f!003+0f!0018+0f!005+0f!0016+0f!007+0f!0016+0f!005+0f!0018+0f!003+0f!001a+0f!00!0f!001c+0f!00ae+0fb+0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!009+0f1e+",
+  "collisions": "0f1e+00ff+0f!001c+0f!00!0f!001a+0f!003+0f!0018+0f!005+0f!0016+0f!007+0f!0016+0f!005+0f!0018+0f!003+0f!001a+0f!00!0f!001c+0f!00ae+0f2+007+0f2+0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!0013+0f!009+0f!009+0f1e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
-  "x": 1056,
-  "y": 944,
-  "script": [],
+  "x": 984,
+  "y": 1056,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "4ec7d5d0-8cf0-486f-ad69-660b3109c1f7"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "0edc556f-f6f2-407f-9f7d-b90bd9a8eb01"
 }

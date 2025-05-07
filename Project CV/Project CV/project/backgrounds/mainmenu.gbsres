@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cc39b2e8-b652-46da-8633-0669a751dea4",
+  "name": "MainMenu",
+  "symbol": "bg_mainmenu",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "MainMenu.png",
+  "tileColors": "",
+  "autoColor": false
+}

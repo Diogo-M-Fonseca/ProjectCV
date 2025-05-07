@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5985ba95-f02f-45db-9b85-b3664856f6fc",
+  "name": "L1C4",
+  "symbol": "bg_l1c4",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "L1C4.png",
+  "tileColors": "",
+  "autoColor": false
+}

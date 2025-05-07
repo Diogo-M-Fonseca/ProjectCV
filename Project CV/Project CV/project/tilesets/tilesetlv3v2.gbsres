@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "26874390-8c5c-4d74-8977-b421aeb8c201",
+  "name": "TileSetLv3v2",
+  "symbol": "tileset_tilesetlv3v2",
+  "width": 20,
+  "height": 9,
+  "imageWidth": 161,
+  "imageHeight": 77,
+  "filename": "TileSetLv3v2.png"
+}

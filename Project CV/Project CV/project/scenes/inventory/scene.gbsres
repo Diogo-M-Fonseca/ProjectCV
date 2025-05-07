@@ -3,7 +3,7 @@
   "id": "f855f009-2c34-42cc-98e5-3db98021448d",
   "_index": 19,
   "name": "Inventory",
-  "backgroundId": "b2e8a0dc-580d-41e8-9e7c-93fbc9e249a1",
+  "backgroundId": "a0b419ec-dfab-4f5d-8a7b-c458e2ad16f4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -20,7 +20,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start"
+          "left"
         ],
         "override": true,
         "__scriptTabs": "press",

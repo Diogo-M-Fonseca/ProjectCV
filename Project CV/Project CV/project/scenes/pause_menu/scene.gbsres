@@ -3,7 +3,7 @@
   "id": "995d19d0-075f-4a67-8fb9-53611bebc7e4",
   "_index": 18,
   "name": "Pause Menu",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "cc39b2e8-b652-46da-8633-0669a751dea4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -48,7 +48,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -62,7 +62,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 11
+                "value": 14
               },
               "direction": "up",
               "fadeSpeed": "2",
@@ -99,7 +99,7 @@
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "081da51c-c8b9-4b15-967e-ae3467386aba"
           }

@@ -3,7 +3,7 @@
   "id": "01962c9c-1f6f-487e-a3fc-3e1afcc584f4",
   "_index": 17,
   "name": "Starting Menu",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "7708b2db-2c69-48e0-88bf-609ca386cafb",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -20,18 +20,11 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start",
-          "select",
-          "a",
-          "b",
-          "right",
-          "up",
-          "down",
-          "left"
+          "start"
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -41,11 +34,11 @@
               "sceneId": "f01683bd-96a8-4a83-ac1a-ac6775f7c014",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 19
               },
               "y": {
                 "type": "number",
-                "value": 16
+                "value": 35
               },
               "direction": "up",
               "fadeSpeed": "2"

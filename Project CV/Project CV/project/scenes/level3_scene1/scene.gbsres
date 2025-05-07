@@ -3,18 +3,18 @@
   "id": "ef690903-2465-495c-bdd7-6747706d9791",
   "_index": 12,
   "name": "Level3_Scene1",
-  "backgroundId": "92dddbb4-4f74-4f7d-9d01-ee3562d56c23",
+  "backgroundId": "c322f95e-d1ae-4ff3-8056-57af018a954e",
   "tilesetId": "",
   "width": 20,
   "height": 20,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f11+002+0f3+003+0f!003+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f3+003+0f!003+0f!003+0f3+003+0f3+003+0f!003+0f!003+0f3+003+0f3+003+0f!00d+0f3+003+0f!00d+0f3+003+0f!00d+0f3+003+0f11+0011+0f3+0011+0f3+0011+0f3+003+0f10+0012+0f2+0013+0f!0013+0f2+003+0f23+",
+  "collisions": "0f11+002+0f3+003+0f!003+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f2+008+0f!003+0f3+003+0f3+003+0f!003+0f!003+0f3+003+0f3+003+0f!003+0f!009+0f3+003+0f!00d+0f3+003+0f!00d+0f3+003+0f!00d+0f3+003+0f11+0011+0f3+0011+0f3+0011+0f3+003+0f10+0012+0f2+0013+0f!0013+0f2+004+0f22+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 60,
-  "y": 988,
+  "x": 72,
+  "y": 1056,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -32,6 +32,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
+          "select",
           "start"
         ],
         "override": true,
@@ -53,11 +54,11 @@
               "sceneId": "995d19d0-075f-4a67-8fb9-53611bebc7e4",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 15
               },
               "direction": "",
               "fadeSpeed": "2",
@@ -76,12 +77,23 @@
         "value": {
           "type": "number",
           "value": 8
-        }
+        },
+        "__collapse": true
       },
       "id": "96853eaf-4dd5-4d02-969e-50eab5549cd2"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "b4248bdc-9fb8-4eba-91f9-5039454b809e"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "0edc556f-f6f2-407f-9f7d-b90bd9a8eb01"
 }

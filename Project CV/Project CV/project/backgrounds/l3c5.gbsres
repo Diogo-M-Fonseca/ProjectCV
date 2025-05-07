@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "894b91d4-5dd6-445d-a6f1-7d105625f8bb",
+  "name": "L3C5",
+  "symbol": "bg_l3c5",
+  "width": 30,
+  "height": 30,
+  "imageWidth": 240,
+  "imageHeight": 240,
+  "filename": "L3C5.png",
+  "tileColors": "",
+  "autoColor": false
+}

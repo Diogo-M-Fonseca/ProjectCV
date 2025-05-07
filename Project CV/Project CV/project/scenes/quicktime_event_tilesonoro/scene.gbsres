@@ -13,11 +13,11 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 60,
-  "y": 1268,
+  "x": 64,
+  "y": 1360,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+  "playerSpriteSheetId": "3f86eddd-b900-47bb-8b2d-406bad7e9172"
 }

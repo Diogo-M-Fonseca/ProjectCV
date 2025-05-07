@@ -14,7 +14,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Definir tileSono e seguir para quicktime event",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "155f68ae-6ed0-4661-8d81-d0a549c21762",
+  "name": "L1C3",
+  "symbol": "bg_l1c3",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "L1C3.png",
+  "tileColors": "",
+  "autoColor": false
+}

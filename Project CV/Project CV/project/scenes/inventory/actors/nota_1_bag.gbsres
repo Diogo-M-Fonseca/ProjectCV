@@ -4,7 +4,7 @@
   "name": "Nota 1 Bag",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "spriteSheetId": "80922a0b-a3da-492f-9590-4a0f213390d6",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -107,7 +107,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 4,
+  "x": 9,
+  "y": 7,
   "_index": 1
 }

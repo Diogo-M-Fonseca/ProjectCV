@@ -3,17 +3,17 @@
   "id": "df8b2f6a-d4a3-461d-aa6f-1c988708c8ca",
   "_index": 5,
   "name": "Level1_Scene4",
-  "backgroundId": "92dddbb4-4f74-4f7d-9d01-ee3562d56c23",
+  "backgroundId": "5985ba95-f02f-45db-9b85-b3664856f6fc",
   "tilesetId": "",
-  "width": 20,
-  "height": 20,
+  "width": 40,
+  "height": 40,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f11+002+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+004+0f10+004+0f!006+0f!006+0f2+004+0f!006+0f!006+0f2+004+0f!006+0f!006+0f2+004+0f!003+0f!002+0f!002+0f!003+0f2+004+0f!003+0f!002+0f!002+0f!003+0f2+004+0f!003+0f!002+0f!002+0f!003+0f2+008+0f!005+0f!003+0f2+008+0f!005+0f!003+0f2+008+0f!005+0f!003+0f11+003+0f2+004+0f!00d+0f2+0012+0f2+0012+0f2+002+0f11+",
+  "collisions": "0f22+004+0f24+004+0f24+004+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+008+0f20+008+0f20+008+0f20+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+006+0f2+004+0f2+004+0f2+006+0f4+008+0f2+006+0f2+00a+0f2+006+0f4+008+0f2+006+0f2+00a+0f2+006+0f4+0010+0f2+00a+0f2+006+0f4+0010+0f2+00a+0f2+006+0f4+0010+0f2+00a+0f2+006+0f4+0010+0f2+00a+0f2+006+0f4+0010+0f2+00a+0f2+006+0f22+006+0f22+006+0f22+006+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+004+0f24+004+0f22+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 576,
+  "x": 1048,
   "y": 344,
   "script": [
     {
@@ -23,7 +23,8 @@
         "value": {
           "type": "number",
           "value": 14
-        }
+        },
+        "__collapse": true
       },
       "id": "a3884642-f31b-4bde-a3af-96bac36d709e"
     },
@@ -71,10 +72,12 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
+          "select",
           "start"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -95,7 +98,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 15
               },
               "direction": "",
               "fadeSpeed": "2"
@@ -105,9 +108,20 @@
         ]
       },
       "id": "c929cc0e-02b1-4e4e-8bd9-aa599b2cac31"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "408c72ab-082e-48d0-a449-2115c6e5ab6f"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8b115f90-bfd5-43d8-b775-2301c1249596",
+  "autoFadeEventCollapse": true
 }

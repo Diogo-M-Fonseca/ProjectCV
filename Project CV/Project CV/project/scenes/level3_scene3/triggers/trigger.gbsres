@@ -3,8 +3,8 @@
   "id": "cd19b9cb-477b-452b-aef0-f8f2d805c949",
   "name": "",
   "prefabId": "",
-  "x": 0,
-  "y": 9,
+  "x": 1,
+  "y": 8,
   "symbol": "trigger_72",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -47,7 +47,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "a55f80c5-c106-418b-b67a-7c678c6a7a52"
           }
@@ -65,8 +66,9 @@
                 "type": "number",
                 "value": 9
               },
-              "direction": "",
-              "fadeSpeed": "2"
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "69280071-6aad-4a83-9876-e1dbfd3d020c"
           }

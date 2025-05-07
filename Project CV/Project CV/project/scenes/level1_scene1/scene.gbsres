@@ -3,17 +3,17 @@
   "id": "f01683bd-96a8-4a83-ac1a-ac6775f7c014",
   "_index": 2,
   "name": "Level1_Scene1",
-  "backgroundId": "92dddbb4-4f74-4f7d-9d01-ee3562d56c23",
+  "backgroundId": "035b6929-b73b-400d-b356-90d9d6749443",
   "tilesetId": "",
-  "width": 20,
-  "height": 20,
+  "width": 40,
+  "height": 40,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f!002+0f12+002+0f!007+0f!007+0f2+002+0f!007+0f!007+0f2+002+0f!007+0f!007+0f2+002+0f!003+0f!003+0f!007+0f2+002+0f!003+0f!003+0f!003+0f!003+0f2+006+0f!007+0f!003+0f2+006+0f!007+0f!003+0f2+006+0f!007+0f!003+0f11+003+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+004+0f10+0012+0f2+0012+0f2+0012+0f2+0012+0fa+002+0f9+",
+  "collisions": "0f2+004+0f24+004+0f24+004+0f24+004+0f2+00e+0f2+00e+0f4+004+0f2+00e+0f2+00e+0f4+004+0f2+00e+0f2+00e+0f4+004+0f2+00e+0f2+00e+0f4+004+0f2+00e+0f2+00e+0f4+004+0f2+006+0f2+006+0f2+00e+0f4+004+0f2+006+0f2+006+0f2+00e+0f4+004+0f2+006+0f2+006+0f2+006+0f2+006+0f4+004+0f2+006+0f2+006+0f2+006+0f2+006+0f4+00c+0f2+00e+0f2+006+0f4+00c+0f2+00e+0f2+006+0f4+00c+0f2+00e+0f2+006+0f4+00c+0f2+00e+0f2+006+0f4+00c+0f2+00e+0f2+006+0f4+00c+0f2+00e+0f2+006+0f22+006+0f22+006+0f22+006+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+008+0f20+008+0f20+008+0f20+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f14+004+0f24+004+0f12+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 60,
+  "x": 64,
   "y": 344,
   "script": [
     {
@@ -32,6 +32,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
+          "select",
           "start"
         ],
         "override": true,
@@ -53,11 +54,11 @@
               "sceneId": "995d19d0-075f-4a67-8fb9-53611bebc7e4",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 15
               },
               "direction": "",
               "fadeSpeed": "2",
@@ -92,10 +93,19 @@
         ]
       },
       "id": "753f5c16-f7d8-4bc3-8881-935a566d5034"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "1fa88a6d-ccb9-4758-bcc1-801f0a85dc8e"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8b115f90-bfd5-43d8-b775-2301c1249596"
 }

@@ -4,9 +4,9 @@
   "name": "Chave para a porta",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "13c16a5d-c4eb-45f1-9286-a85c0571d388",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -49,7 +49,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "58f9aa94-343f-4347-9924-6ec117d773ed"
     },

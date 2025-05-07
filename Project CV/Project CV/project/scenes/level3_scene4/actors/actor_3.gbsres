@@ -4,18 +4,36 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "a679a832-8755-48b9-a6ea-f78a9c0a99b1",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "symbol": "actor_28",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "2769a83d-5ee4-408b-beec-948fa80db697",
+        "x": {
+          "type": "number",
+          "value": 32
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "left",
+        "fadeSpeed": "2"
+      },
+      "id": "c1d7647e-ad06-4378-9679-c0c62fce9f29"
+    }
+  ],
   "startScript": [],
   "updateScript": [
     {
@@ -29,7 +47,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 18
+                "value": 26
               },
               "y": {
                 "type": "number",
@@ -47,11 +65,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 18
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 23
+                "value": 8
               },
               "moveType": "horizontal",
               "useCollisions": false,
@@ -67,7 +85,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
+  "x": 17,
   "y": 8,
   "_index": 3
 }

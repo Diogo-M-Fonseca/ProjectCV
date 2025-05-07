@@ -3,12 +3,12 @@
   "id": "cb0e2269-3ba5-4c5d-90d3-4d8748060e78",
   "name": "",
   "prefabId": "",
-  "x": 16,
-  "y": 4,
+  "x": 32,
+  "y": 8,
   "symbol": "trigger_59",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
+  "width": 2,
+  "height": 4,
   "script": [
     {
       "command": "EVENT_GROUP",

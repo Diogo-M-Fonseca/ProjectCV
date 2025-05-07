@@ -47,7 +47,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "6598884b-bac7-4b13-81fe-2be6166a9f16"
           }
@@ -65,8 +66,9 @@
                 "type": "number",
                 "value": 1
               },
-              "direction": "",
-              "fadeSpeed": "2"
+              "direction": "down",
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "0a91b5bc-8d10-4dd3-bff0-f50995d2429d"
           }
