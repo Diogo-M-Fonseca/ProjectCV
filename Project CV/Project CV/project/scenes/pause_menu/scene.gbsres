@@ -91,11 +91,11 @@
               "sceneId": "f855f009-2c34-42cc-98e5-3db98021448d",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 11
               },
               "direction": "",
               "fadeSpeed": "2",

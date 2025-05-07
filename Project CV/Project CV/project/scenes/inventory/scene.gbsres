@@ -20,7 +20,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "left"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press",
@@ -43,5 +43,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "6fa76c66-fefb-482a-9971-0d972b663882"
 }

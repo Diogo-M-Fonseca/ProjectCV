@@ -76,9 +76,9 @@
         "variable": "10",
         "value": {
           "type": "number",
-          "value": 4
+          "value": 3
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "11f4efae-8417-48ff-8fd4-f91a4dc33145"
     },

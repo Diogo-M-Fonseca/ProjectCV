@@ -20,7 +20,7 @@
       "command": "EVENT_ACTOR_SHOW",
       "args": {
         "actorId": "$self$",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "31bef8df-df75-46ff-8cd1-5aeffcf924bb"
     },
@@ -31,6 +31,17 @@
         "__collapse": true
       },
       "id": "24c6d1d0-afca-463a-9b16-e872df81f91f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "3c4d8ead-77e6-4206-97bb-b98b91663df5"
     }
   ],
   "startScript": [
@@ -51,6 +62,31 @@
         "__collapse": true
       },
       "id": "00b8299b-6c15-4869-9b6c-0ff05a3850ad"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "20"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "db414827-c61c-4bbe-8032-af2b615b98b7"
+          }
+        ],
+        "false": []
+      },
+      "id": "a95a6da4-a2ef-435e-8c90-8f1e82146698"
     }
   ],
   "updateScript": [],

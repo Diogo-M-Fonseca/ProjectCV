@@ -29,6 +29,11 @@
             "id": "60106959-0ba4-45dd-baff-84c32420a581"
           },
           {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "d6395dba-a33d-4ef5-9bfc-9c693a703dde"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "dbc9493b-1c3f-4000-8e77-e1e20aeede13",

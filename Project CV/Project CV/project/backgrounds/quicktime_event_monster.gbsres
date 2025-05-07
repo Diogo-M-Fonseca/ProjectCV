@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cfec5c2d-0e51-4d56-8cfa-19b775c11dee",
+  "name": "quicktime_event_Monster",
+  "symbol": "bg_quicktime_event_monster",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "quicktime_event_Monster.png",
+  "tileColors": ""
+}
