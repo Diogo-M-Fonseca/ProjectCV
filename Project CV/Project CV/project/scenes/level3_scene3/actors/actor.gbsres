@@ -29,7 +29,8 @@
           "value": 1
         },
         "direction": "down",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "8f58ef68-1c3c-47d5-ab4f-4d03fb41161b"
     }
@@ -38,7 +39,10 @@
   "updateScript": [
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": false,
+        "__comment": false
+      },
       "children": {
         "true": [
           {

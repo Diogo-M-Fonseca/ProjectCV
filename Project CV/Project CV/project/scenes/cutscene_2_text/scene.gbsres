@@ -1,0 +1,70 @@
+{
+  "_resourceType": "scene",
+  "id": "5c44f74b-f474-4736-a473-b679944f0caf",
+  "_index": 26,
+  "name": "Cutscene 2 text",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 1710.6666660308838,
+  "y": 542,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Yoon finally found \nJang",
+          "and asked him \nabout the children.",
+          "After some dialogue,\nhe said he heard",
+          "that the children\nwere in the hospital!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "1fb08dd7-e409-42d2-8ea5-66d9febd01f7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "36f1535e-9afb-4139-9744-5b9bba07b94c",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b39a5f16-aaeb-4d0e-a0bc-6b5043190808"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "43ba7f1a-ba74-4af2-87c5-362cf816d051"
+}

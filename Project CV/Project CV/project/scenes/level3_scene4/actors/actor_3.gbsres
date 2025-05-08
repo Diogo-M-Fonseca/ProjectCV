@@ -38,7 +38,9 @@
   "updateScript": [
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__comment": false
+      },
       "children": {
         "true": [
           {
@@ -55,7 +57,7 @@
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "7f1807dc-d7c9-4c5b-9ef1-b00e1afe4ec4"
           },
@@ -73,7 +75,7 @@
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0c7ba950-9346-45d2-877b-1dc834a97a0a"
           }

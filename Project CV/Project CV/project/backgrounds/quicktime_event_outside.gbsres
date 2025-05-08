@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c4da03d7-0da4-4186-b9c9-b3e719008eaa",
+  "name": "quicktime_event_Outside",
+  "symbol": "bg_quicktime_event_outside",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "quicktime_event_Outside.png",
+  "tileColors": "",
+  "autoColor": false
+}

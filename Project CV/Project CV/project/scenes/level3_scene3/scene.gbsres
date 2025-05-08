@@ -66,6 +66,24 @@
         "__collapse": true
       },
       "id": "8bb2953d-076b-4007-bbe4-4a8dbbd4d788"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "e2cf2a10-5498-4d83-8f7d-724e572bc1cd",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "191e5a10-31dd-43b0-a4b4-2d820907769d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "af783661-7361-4b0a-981f-461fec1e65c5",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "bfef1828-83c8-4b7c-a651-2f470331ef52"
     }
   ],
   "playerHit1Script": [],

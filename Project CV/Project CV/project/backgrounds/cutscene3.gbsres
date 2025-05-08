@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "d220dfb1-d0ef-41ee-95de-e769cd717798",
-  "name": "QuickTimeEvent",
-  "symbol": "bg_quicktimeevent",
+  "id": "2a0f2b8d-5528-44b8-976f-95c9a8bc589b",
+  "name": "Cutscene3",
+  "symbol": "bg_cutscene3",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "QuickTimeEvent.png",
+  "filename": "Cutscene3.png",
   "tileColors": "",
   "autoColor": false
 }

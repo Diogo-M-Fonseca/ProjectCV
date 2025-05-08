@@ -77,6 +77,42 @@
         "__collapse": true
       },
       "id": "ec0b9f3a-4a48-45d2-b7bd-8e1202777148"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "68416599-448a-4b19-8d27-feb500565c59",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "70eeb105-f7c8-4c46-a733-8274288e5724"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "231bd07f-84db-4f1f-aa77-373613fc9737",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "c018bc87-d690-40b2-9ea4-a3959a5b34dc"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "1bbfda38-3872-4fb7-acd7-8fcc647a2ca4",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "2163bb77-b30e-4cb1-9635-e0c0d00c7f8f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "e2e66c46-29ee-4f1f-88d8-d83649a61bbc",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "ddf17caa-1b42-4e83-b2b5-dc6a6ff52e7a"
     }
   ],
   "playerHit1Script": [],

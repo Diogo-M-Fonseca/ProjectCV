@@ -13,21 +13,15 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_21",
-  "x": 1304,
-  "y": 1064,
+  "x": 1416,
+  "y": 1056,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "b",
-          "left",
-          "up",
-          "down",
-          "right",
-          "a",
           "start",
-          "select"
+          "a"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -38,7 +32,8 @@
             "command": "EVENT_WAIT",
             "args": {
               "time": 1,
-              "frames": 30
+              "frames": 30,
+              "__collapse": true
             },
             "id": "ff68132a-32dd-4c5b-98a9-d7924d637429"
           },

@@ -38,7 +38,9 @@
   "updateScript": [
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__comment": false
+      },
       "children": {
         "true": [
           {

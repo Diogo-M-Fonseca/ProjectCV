@@ -72,16 +72,6 @@
       "symbol": "var_dinamite3"
     },
     {
-      "id": "18",
-      "name": "Dinamite4",
-      "symbol": "var_dinamite4"
-    },
-    {
-      "id": "19",
-      "name": "Dinamite5",
-      "symbol": "var_dinamite5"
-    },
-    {
       "id": "14",
       "name": "Dinamite6",
       "symbol": "var_dinamite6"
@@ -90,6 +80,16 @@
       "id": "15",
       "name": "Dinamite7",
       "symbol": "var_dinamite7"
+    },
+    {
+      "id": "18",
+      "name": "Dinamite4",
+      "symbol": "var_dinamite4"
+    },
+    {
+      "id": "19",
+      "name": "Dinamite5",
+      "symbol": "var_dinamite5"
     },
     {
       "id": "20",

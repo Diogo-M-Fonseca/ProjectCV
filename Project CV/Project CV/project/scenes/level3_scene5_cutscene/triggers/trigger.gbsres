@@ -8,12 +8,12 @@
   "symbol": "trigger_74",
   "prefabScriptOverrides": {},
   "width": 7,
-  "height": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "d26182b5-f607-4957-9a0c-ed477be397fa",
+        "sceneId": "4ad593d9-809f-4b25-b846-315e52fc224c",
         "x": {
           "type": "number",
           "value": 0
